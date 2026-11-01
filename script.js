@@ -1120,7 +1120,7 @@
     window.addEventListener("scroll", lightCards, { passive: true });
   }
 
-  // RainEffect (lit = true, tone = violet)
+  // RainEffect (lit = true, tone = red)
   function initRain() {
     const canvas = document.getElementById("rain-canvas");
     if (!canvas) return;
@@ -1128,7 +1128,7 @@
     if (!ctx) return;
 
     const LIGHT_RADIUS = 140;
-    const [r, g, b] = [178, 132, 255];
+    const [r, g, b] = [255, 95, 110];
     const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
     let width = 0;
     let height = 0;
