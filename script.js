@@ -43,7 +43,7 @@
           id: "inputs",
           src: "./cecen/inputs.jpg",
           label: "Inputs",
-          desc: "667, Fast, Saiko, Cloud and Meow input prediction with a tunable offset.",
+          desc: "667, Fast, Saiko, Cloud, Meow and F input prediction with a tunable offset.",
         },
         {
           id: "settings",
@@ -53,7 +53,7 @@
         },
       ],
       stats: [
-        ["5", "input modes"],
+        ["6", "input modes"],
         ["1st", "social profiles in DDNet"],
         ["Live", "Spotify listen along"],
         ["3", "platforms"],
@@ -77,7 +77,7 @@
           title: "Best Fast Inputs in DDNet",
           body: "Your tee reacts before the server answers. Pick the prediction that fits your hand and tune how far ahead it plays.",
           points: [
-            "667, Fast, Saiko, Cloud and Meow modes",
+            "667, Fast, Saiko, Cloud, Meow and F modes",
             "Prediction offset in ticks, Auto Margin",
             "Input Debounce and Sub-Tick aiming",
             "Snap Tap for instant left/right switching",
@@ -199,7 +199,7 @@
           id: "inputs",
           src: "./cecen/inputs.jpg",
           label: "Input'lar",
-          desc: "667, Fast, Saiko, Cloud ve Meow input tahmini, ayarlanabilir ofsetle.",
+          desc: "667, Fast, Saiko, Cloud, Meow ve F input tahmini, ayarlanabilir ofsetle.",
         },
         {
           id: "settings",
@@ -209,7 +209,7 @@
         },
       ],
       stats: [
-        ["5", "input modu"],
+        ["6", "input modu"],
         ["İlk", "DDNet'te sosyal profil"],
         ["Canlı", "Spotify listen along"],
         ["3", "platform"],
@@ -422,7 +422,7 @@
   let socialStep = 0;
   let inputsStep = 0;
   let listenProgress = 18;
-  const INPUT_MODES = ["667", "Fast", "Saiko", "Cloud", "Meow"];
+  const INPUT_MODES = ["667", "Fast", "Saiko", "Cloud", "Meow", "F"];
   const INPUT_TICKS = [1.5, 1.0, 1.25, 1.75, 1.5];
 
   function scheduleShowcase() {
@@ -523,7 +523,7 @@
             primary && platform
               ? `<a
                   href="${primary.url}"
-                  class="group inline-flex h-12 items-center gap-2.5 rounded-full bg-white px-7 text-[15px] font-medium text-black shadow-[0_0_0_1px_rgba(255,255,255,0.1),0_8px_40px_rgba(139,92,246,0.35)] transition hover:bg-white/90"
+                  class="group inline-flex h-12 items-center gap-2.5 rounded-full bg-white px-7 text-[15px] font-medium text-black shadow-[0_0_0_1px_rgba(255,255,255,0.1),0_8px_40px_rgba(251,44,54,0.35)] transition hover:bg-white/90"
                 >
                   <span aria-hidden="true" class="transition-transform group-hover:translate-y-0.5">↓</span>
                   ${t.downloadFor(PLATFORM_LABEL[platform])}
